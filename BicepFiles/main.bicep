@@ -1,20 +1,20 @@
 param location string = resourceGroup().location
   
 var virtualNetwork = {
-  name: 'tamopsvnet'
+  name: 'vnet-bicep'
   location: location
   addressPrefixes: [
     '10.0.0.0/16'
     ]
   subnets: [
     {
-      name: 'testsubnet1'
+      name: 'sn-bicep-sub1'
       properties: {
         addressPrefix: '10.0.0.0/24'
       }
     }
     {
-      name: 'testsubnet2'
+      name: 'sn-bicep-sub2'
       properties: {
         addressPrefix: '10.0.1.0/24'
       }
