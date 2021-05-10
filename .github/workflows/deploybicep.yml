@@ -9,7 +9,7 @@ on:
 jobs:
  
   AzureBicepDeploy:
-    name: 'AzureBicepDeploy'
+    name: 'AzureBicepDeploy1'
     runs-on: ubuntu-latest
     env:
       ResourceGroupName: rg-bicep101
