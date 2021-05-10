@@ -4,7 +4,7 @@ var virtualNetwork = {
   name: 'vnet-bicep'
   location: location
   addressPrefixes: [
-    '10.0.0.0/16'
+    '10.0.0.0/8'
     ]
   subnets: [
     {
